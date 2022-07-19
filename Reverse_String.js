@@ -9,6 +9,9 @@ function getReversString(string){
     return reversString
 }
 
+
+//Revers string using charAt
+
 console.log("Revers string of " + inputStringOne + " is "+ getReversStringUsingCarAt(inputStringOne) +"")
 
 function getReversStringUsingCarAt(string){
