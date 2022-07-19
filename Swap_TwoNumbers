@@ -1,0 +1,23 @@
+//Swap two numbers without using temp variable
+
+let a = 5;
+let b = 6;
+
+
+//Using addition and substraction
+
+a = a+ b;
+b = a - b;
+a = a - b
+
+console.log(a)
+console.log(b)
+
+// Using XOR gate
+
+a = a ^ b
+b = a ^ b
+a = a ^ b
+
+console.log(a)
+console.log(b)
