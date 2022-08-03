@@ -1,0 +1,19 @@
+
+checkIsAnstrong(157)
+checkIsAnstrong(153)
+checkIsAnstrong(121)
+checkIsAnstrong(371)
+
+function checkIsAnstrong(number){
+    let result=0
+    let original = number
+    while (number !=0) {
+        let reminder = number%10
+        result = result + (reminder*reminder*reminder)
+        number = parseInt(number/10)
+    }
+    if(original == result)
+        console.log('Given '+original+' number is an Amstrong number')
+    else
+        console.log('Given '+original+' number is not an Amstrong number')
+}
